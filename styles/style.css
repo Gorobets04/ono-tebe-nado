@@ -250,7 +250,6 @@ nav {
 .card__text {
     align-items: end;
     text-decoration: none; 
-
     color: #FFF;
     font-size: 20px;
     font-style: normal;
@@ -259,7 +258,6 @@ nav {
     padding: 0 40px 48px 40px;
     position: relative;
     z-index: 2;
-
 }
 
 .card_type_book {
