@@ -255,8 +255,7 @@ nav {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%;  
-    
+    line-height: 120%;
     padding: 0 40px 48px 40px;
     position: relative;
     z-index: 2;
@@ -292,7 +291,7 @@ nav {
     min-width: 1052px;
     display: grid;
     grid-template-columns: [start] 334px [end] 718px;
-    grid-template-rows: 1fr 120px 168px;
+    grid-template-rows: 1fr 138px;
     gap: 6px 25px;
     padding: 146px 24px 180px 24px;
 }
@@ -336,6 +335,7 @@ nav {
 
 .about__text-transform {
     width: 688px;
+    margin-bottom: 20px;
 }
 
 .about__text-width {
@@ -348,12 +348,19 @@ nav {
     margin: auto;
     width: 1000px;
     height: 98px;
-    padding: 0 0px 88px 0px;
+    padding: 0 0 88px 0px;
+}
+
+.adress__width {
+    width: 240px;
+}
+
+.nav__width {
+    width: 149px;
 }
 
 .footer__menu {
     margin: auto;
-    width: 149px;
     justify-content:center;
     text-align: center;
     text-transform: lowercase;
@@ -362,8 +369,6 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
-    
 }
 
 .footer__menu-link_active {
@@ -375,7 +380,6 @@ nav {
 }
 
 .footer__social-list {
-    margin-left: auto;
     display: flex;
     column-gap: 48px;
 }
